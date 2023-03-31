@@ -1,0 +1,38 @@
+h4,h6{
+  font-family: cursive; //lettertype aangepast
+}
+
+.container {
+    display: flex; //ervoor zorgen dat ik met flex mn container kan verplaatsen.
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;// zorgt ervoor dat alle items binnen de kontainer bij elkaar zitten.
+    width: 200px;
+    height: 400px;
+    background-color: #E3E4EC;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.blok {
+    background-color: yellow;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E3E4EC;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
